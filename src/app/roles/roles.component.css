@@ -1,0 +1,61 @@
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 5px;
+  }
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+    border-radius: 5px;
+  }
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+  }
+  /* Style the front side */
+  .flip-box-front {
+    font-family: "Arial", Times, sans-serif;
+    background-color: #343A40;
+    color: #FFFFFF;
+    border-radius: 5px;
+  }
+  /* Style the back side */
+  .flip-box-back {
+    font-family: "Arial", Times, sans-serif;
+    background-color: #610B0B;
+    color: white;
+    border-radius: 5px;
+    transform: rotateY(180deg);
+  }
+
+  p{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  h2{
+    margin-top: 15px;
+  }
+  img{
+    margin-top: 15px;
+    width: 60%;
+    height: 60%;
+  }

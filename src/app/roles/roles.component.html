@@ -1,0 +1,15 @@
+<div class="btn-group" *ngFor="let rol of rols">
+<div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        <h2>{{rol.name}}</h2>
+        <img src={{rol.img}}>
+      </div>
+      <div class="flip-box-back">
+        <h2>{{rol.name}}</h2>
+        <p>{{rol.description}}</p>
+        <h5>{{rol.class}}</h5>
+      </div>
+    </div>
+  </div>
+</div>
