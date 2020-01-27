@@ -10,6 +10,7 @@ import { rol } from '../classes/rol';
 export class RolesComponent implements OnInit {
 
   rols: rol[];
+  class:string='All';
 
   constructor(private RolService: RolService) { }
 
@@ -17,6 +18,22 @@ export class RolesComponent implements OnInit {
     this.RolService.getItems().subscribe(
       rols => this.rols = rols
     );
+  }
+
+  setAll(){
+    this.class='All';
+  }
+
+  setEvil(){
+    this.class='Maldad';
+  }
+
+  setVillage(){
+    this.class='Aldea';
+  }
+
+  setOther(){
+    this.class='Otro';
   }
 
 }

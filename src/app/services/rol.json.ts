@@ -68,7 +68,7 @@ export const ROL: rol[]=[
         id: 10,
         name: 'Mentiroso',
         description: 'Tu eres el mentiroso, tu papel es hacer de todo para que el pueblo te mate, si eso pasa, tu ganas, y el resto pierde.',
-        class: 'Maldad',
+        class: 'Otro',
         img: '../assets/img/mentiroso.png'
     },
   ];

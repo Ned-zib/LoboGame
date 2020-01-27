@@ -1,14 +1,42 @@
-<div class="btn-group" *ngFor="let rol of rols">
-<div class="flip-box">
-    <div class="flip-box-inner">
-      <div class="flip-box-front">
-        <h2>{{rol.name}}</h2>
-        <img src={{rol.img}}>
+<div class="btn-group">
+  <button type="button" (click)="setAll()" class="btn btn-dark">Todos</button>
+  <button type="button" (click)="setEvil()" class="btn btn-dark">Maldad</button>
+  <button type="button" (click)="setVillage()" class="btn btn-dark">Aldea</button>
+  <button type="button" (click)="setOther()" class="btn btn-dark">Otro</button>
+</div>
+
+<div>
+  <div *ngIf="class == 'All'">
+  <div class="btn-group" *ngFor="let rol of rols">
+  <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <h2>{{rol.name}}</h2>
+          <img src={{rol.img}}>
+        </div>
+        <div class="flip-box-back">
+          <h2>{{rol.name}}</h2>
+          <p>{{rol.description}}</p>
+          <h5>{{rol.class}}</h5>
+        </div>
       </div>
-      <div class="flip-box-back">
-        <h2>{{rol.name}}</h2>
-        <p>{{rol.description}}</p>
-        <h5>{{rol.class}}</h5>
+    </div>
+  </div>
+  </div>
+  <div class="btn-group" *ngFor="let rol of rols">
+  <div *ngIf="class == rol.class">
+    <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <h2>{{rol.name}}</h2>
+            <img src={{rol.img}}>
+          </div>
+          <div class="flip-box-back">
+            <h2>{{rol.name}}</h2>
+            <p>{{rol.description}}</p>
+            <h5>{{rol.class}}</h5>
+          </div>
+        </div>
       </div>
     </div>
   </div>
