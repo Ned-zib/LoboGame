@@ -29,6 +29,7 @@ the most interesting part of the CSS are the flip box.
 <img src="https://i.ibb.co/cknTxvx/lobo2.png" alt="lobo2" border="0">
 </p>
 <p align="center">
-<iframe src="https://giphy.com/embed/LpiqqjJzMiwlFK7GTW" width="391" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  <img src="https://media.giphy.com/media/LpiqqjJzMiwlFK7GTW/giphy.gif" border="0">
 </p>
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NedzibSas_LoboGame&metric=alert_status)](https://sonarcloud.io/dashboard?id=NedzibSas_LoboGame)
