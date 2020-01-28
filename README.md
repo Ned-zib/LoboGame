@@ -25,5 +25,5 @@
 
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NedzibSas_LoboGame&metric=alert_status)](https://sonarcloud.io/dashboard?id=NedzibSas_LoboGame)
-[![GitHub stars](https://img.shields.io/github/stars/ismaestro/angular8-example-app.svg?style=social&label=Star)](https://github.com/ismaestro/angular8-example-app)
-[![GitHub forks](https://img.shields.io/github/forks/ismaestro/angular8-example-app.svg?style=social&label=Fork)](https://github.com/ismaestro/angular8-example-app/fork)
+[![GitHub stars](https://img.shields.io/github/stars/ismaestro/angular8-example-app.svg?style=social&label=Star)](https://github.com/NedzibSas/LoboGame)
+[![GitHub forks](https://img.shields.io/github/forks/ismaestro/angular8-example-app.svg?style=social&label=Fork)](https://github.com/NedzibSas/LoboGame/fork)
