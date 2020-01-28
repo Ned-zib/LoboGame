@@ -23,8 +23,11 @@
   </p>
 </p>
 
+
 This project is a simple exercise to improve CSS and Angular skills, it's a web page for playing cards of a rol game.
 the most interesting part of the CSS are the flip box.
+
+
 <p align="center">
 <img src="https://i.ibb.co/cknTxvx/lobo2.png" alt="lobo2" border="0">
 </p>
