@@ -19,19 +19,14 @@
     <br>
     <br>
     <img src="https://i.ibb.co/hRtxbR6/lobo1.png" alt="lobo1" border="0">
-    
+    <br>
+    <br>
   </p>
-</p>
-
-
-This project is a simple exercise to improve CSS and Angular skills, it's a web page for playing cards of a rol game.
-the most interesting part of the CSS are the flip box.
-
-
-<p align="center">
+    <br>
+    <br>
 <img src="https://i.ibb.co/cknTxvx/lobo2.png" alt="lobo2" border="0">
-</p>
-<p align="center">
+    <br>
+    <br>
   <img src="https://media.giphy.com/media/LpiqqjJzMiwlFK7GTW/giphy.gif" border="0" width="300px" height=auto>
 </p>
 
