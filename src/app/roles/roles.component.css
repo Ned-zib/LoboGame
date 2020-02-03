@@ -30,24 +30,21 @@
     height: 100%;
     backface-visibility: hidden;
     border-radius: 5px;
-    font-family: "impact", Times, serif;
   }
   /* Style the front side */
   .flip-box-front {
-    font-family: "Arial", Times, sans-serif;
     background-color: #343A40;
     color: #FFFFFF;
-    font-family: "impact", Times, serif;
+    font-family: 'Bebas Neue', cursive; 
     border-radius: 5px;
   }
   /* Style the back side */
   .flip-box-back {
-    font-family: "Arial", Times, sans-serif;
     background-color: #610B0B;
     color: white;
     border-radius: 5px;
     transform: rotateY(180deg);
-    font-family: "impact", Times, serif;
+    font-family: 'Bebas Neue', cursive;
   }
 
   p{
@@ -70,5 +67,5 @@
     margin-bottom: 5px;
     margin-top: 5px;
     border-radius: 5px;
-    font-family: "impact", Times, serif;
+    font-family: 'Bebas Neue', cursive;
   }

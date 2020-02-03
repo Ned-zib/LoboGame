@@ -4,17 +4,17 @@
 }
 h1{
     color: white;
-    font-family: "impact", Times, serif;
+    font-family: 'Bebas Neue', cursive;
     text-align: left;
 }
 p{
     color: white;
-    font-family: "impact", Times, serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: large;
 }
 
 .btn-dark{
     color: white;
-    font-family: "impact", Times, serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: large;
 }
